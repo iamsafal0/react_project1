@@ -13,17 +13,22 @@ const Home = () => {
       <div className="home" id="home">
         <main>
           <h1>TechSolutions</h1>
-          <p>Solution to all your problems</p>
+          <p>Solution to all your technical problems</p>
         </main>
       </div>
 
       <div className="home2">
         <img src={vg} alt="Graphics" />
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero est
-          praesentium at assumenda eveniet ab perspiciatis, atque beatae
-          deleniti sit, cupiditate nihil aliquam, minus ut voluptate voluptatem
-          aperiam? Asperiores, consequuntur. Laborum, quaerat rem.
+          TECHSOLUTIONS is a company that offers all kinds of IT solutions to
+          its customers. It provides consultation and deployment services for
+          small, medium and large businesses.
+        <br />
+        <br />
+          TECHSOLUTIONS provides a wide range of services such as web hosting,
+          network management, email management and more. All these services are
+          delivered through industry-leading products with high-quality
+          standards and at competitive prices.
         </p>
       </div>
 
@@ -31,18 +36,16 @@ const Home = () => {
         <div>
           <h1>Who we are? </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
-            atque ducimus magni vitae, corporis officia doloremque sint ab,
-            veniam nam maiores reprehenderit, dolorum officiis voluptatibus
-            sapiente. Autem rerum quisquam velit sunt nobis, soluta harum saepe
-            explicabo ea accusamus ab laboriosam quia blanditiis ullam non nihil
-            nesciunt. Laboriosam assumenda vero beatae?Lorem ipsum, dolor sit
-            amet consectetur adipisicing elit. Error saepe odit dicta veniam
-            officia placeat, perferendis mollitia eveniet reprehenderit in
-            nesciunt deserunt blanditiis recusandae nostrum aliquam alias aut
-            tempore! Voluptatem impedit velit, libero officia ad corporis ipsum
-            molestiae illum. Libero nulla obcaecati mollitia repellat at tenetur
-            ullam porro nemo distinctio.
+            TECHSOLUTIONS is an IT and software solution provider. They provide
+            different services to their clients, including web design and
+            development, application development, digital marketing, and more.
+            <br />
+            <br />
+            TECHSOLUTIONS is a company that provides IT solutions for both small
+            businesses and large enterprises. They provide solutions for a wide
+            range of industries such as healthcare, retail, education, finance
+            and more. TECHSOLUTIONS also offers web design and development
+            services for the websites of their clients.
           </p>
         </div>
       </div>
@@ -52,35 +55,42 @@ const Home = () => {
           <h1>Brands</h1>
 
           <article>
-            <div style={{
-                animationDelay:"0.3s",
-             } }>
-                <AiFillGoogleCircle/>
-                <p>Google</p>
+            <div
+              style={{
+                animationDelay: "0.3s",
+              }}
+            >
+              <AiFillGoogleCircle />
+              <p>Google</p>
             </div>
 
-            <div style={{
-                animationDelay:"0.5s",
-             } }>
-                <AiFillAmazonCircle/>
-                <p>Amazon</p>
+            <div
+              style={{
+                animationDelay: "0.5s",
+              }}
+            >
+              <AiFillAmazonCircle />
+              <p>Amazon</p>
             </div>
 
-            <div style={{
-                animationDelay:"0.7s",
-             } }>
-                <AiFillYoutube/>
-                <p>Youtube</p>
+            <div
+              style={{
+                animationDelay: "0.7s",
+              }}
+            >
+              <AiFillYoutube />
+              <p>Youtube</p>
             </div>
 
-            <div style={{
-                animationDelay:"1s",
-             } }>
-                <AiFillInstagram/>
-                <p>Instagram</p>
+            <div
+              style={{
+                animationDelay: "1s",
+              }}
+            >
+              <AiFillInstagram />
+              <p>Instagram</p>
             </div>
           </article>
-
         </div>
       </div>
     </>
